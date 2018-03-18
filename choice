@@ -21,26 +21,28 @@ and is wrapped around the whole page content, except for the footer in this exam
 </header>
 
 <!-- Grid -->
-<div class="w3-row">
+
 
 <!-- Blog entries -->
-<div class="w3-col l8 s12">
+
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <h3><b>Enter Your ID Number Below</b></h3>
+      <h3 style="text-align:center;"><b>Choose an Option Below</b></h3>
     </div>
-<form action="/action_page.php">
-  ID Number: <input type="text" name="fname"><br>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+<form action="choice.html" style="text-align:center;">
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" style="text-align:center;"href="choice.html">View Completed Tests</button>
+</form>
+<form action="choice.html" style="text-align:center;">
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" style="text-align:center;"href="choice.html">Take New Test</button>
 </form>
 
     <div class="w3-container">
       <div class="w3-row">
        
       </div>
-    </div>
-  </div>
+
+
   <hr>
 
 <!-- END Introduction Menu -->
